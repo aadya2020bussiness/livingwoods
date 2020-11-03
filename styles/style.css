@@ -161,12 +161,12 @@ body.menu-active #Header .logo {
 }
 #BannerSlider .banner-text h1 {
 	font: 500 30px/135% 'Open Sans', sans-serif;
-	color: #000;
+	color: #fff;
 	margin: 0 0 25px;
 }
 #BannerSlider .banner-text p {
 	font: 400 18px/155% 'Open Sans', sans-serif;
-	color: #000;
+	color: #fff;
 	margin: 0 0 25px;
 	transform: translate();
 }
