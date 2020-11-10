@@ -54,7 +54,7 @@ $(document).ready(function() {
   // Our Work filter
   $('#OurWork .filter-list ul li').click(function() {
     dis = $(this),
-      disFilter = dis.data("filter");
+          disFilter = dis.data("filter");
     finalFilter = disFilter == "all" ? "*" : "." + disFilter;
     dis.addClass('active').siblings().removeClass('active');
     $("#OurWork .filter-box .each-box").hide().filter(finalFilter).show();
